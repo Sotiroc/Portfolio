@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seth's Portfolio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your external CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> <!-- Example for Roboto -->
+</head>
+<body>
+
+    <!-- Video Background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bgVideo">
+            <source src="./Videos/No Copyright Video, Background, Green Screen, Motion Graphics, Animated Background, Copyright Free.mp4" type="video/mp4"> <!-- Add the correct path for your MP4 video -->
+        </video>
+    </div>
+
+    <!-- Overlay Content -->
+    <div class="overlay-content">
+
+        <!-- Top Bar with Logo and Instagram/TikTok Icons -->
+        <div class="top-bar">
+            <img src="./imgs/profilepicture.png" alt="Logo" class="logo"> <!-- Replace with your logo path -->
+            
+            <!-- Container for Instagram and TikTok Icons -->
+            <div class="social-icons">
+                <!-- Instagram Icon -->
+                <a href="https://www.instagram.com/seth_sotiralis/" target="_blank">
+                    <img src="./imgs/Insta.png" alt="Instagram Icon" class="icon">
+                </a>
+
+                <!-- TikTok Icon -->
+                <a href="https://www.tiktok.com/@seth_sotiralis" target="_blank">
+                    <img src="./imgs/tiktokIcon.webp" alt="TikTok Icon" class="icon">
+                </a>
+            </div>
+        </div>
+
+        <!-- Business Name in the Center -->
+        <div class="business-name">
+            <h1>SETH SOTIRALIS <span>PORTFOLIO</span></h1>
+            <img src="imgs\Line Sketch.png" alt="Scribble" class="scribble"> <!-- Replace with your scribble image -->
+        </div>
+
+        <!-- Post Production Agency Text -->
+        <p class="tagline">Your <span>Creative Partner</span> for Content Creation</p>
+
+        <!-- Portfolio Button -->
+        <div class="portfolio-button">
+            <a href="#portfolio" class="glass-button">See Portfolio</a>
+        </div>
+    </div>
+
+
+
+
+<!-- Services Section -->
+<section class="services-section">
+    <!-- Glass Effect for Services Heading -->
+    <div class="glass-heading">
+        <h2>Skill Set</h2>
+    </div>
+
+    <!-- Services Content -->
+    <div class="services-container">
+
+        <div class="service-box">
+            <h3>Video <br> Editing</h3>
+            <p>I have been editing videos for over 3 years, creating engaging content for Instagram, 
+                YouTube, and TikTok. <br><br>I’ve worked with a variety of clients to help grow their audiences 
+                by producing attention-grabbing videos. My focus is on storytelling through short-form 
+                and long-form content, ensuring each video captivates and resonates with viewers.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Graphics <br> Design</h3>
+            <p>With 4 years of experience in graphic design, I specialize in creating impactful visuals 
+                for various purposes. From signage and banners to labels, advertisements, and decorative 
+                decals, I’ve designed for both digital and print media. <br><br>My goal is to transform ideas into 
+                unique designs that communicate effectively and stand out in any space.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>Social Media <br> Management</h3>
+            <p>I am experienced in using tools like ClickUp to manage social media schedules, 
+                ensuring that content is uploaded on time across multiple platforms. <br><br> I stay on top of 
+                trends, conduct niche research, and plan content strategies to boost engagement and 
+                audience growth. I streamline the process from idea to execution, keeping the brand's 
+                voice consistent.</p>
+        </div>
+        <div class="service-box">
+            <h3>Development<br> </h3>
+            <p>I am a front-end development enthusiast with a strong foundation in C++, JavaScript, HTML, 
+                and CSS. <br><br> Alongside a degree in computer science, I bring my passion for creating smooth, 
+                user-friendly interfaces to every project. Whether building websites or implementing 
+                responsive designs, I’m always focused on the end-user experience</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Video Editing Section -->
+<section class="video-editing-section" id="portfolio">
+    <h2  class="glass-heading">Video Editing </h2>
+
+    <!-- Container for Videos -->
+    <div class="video-container">
+        <!-- Video 1 -->
+        <div class="video-box">
+            <video controls poster="./imgs/biglabelsthumb.png">
+                <source src="./Videos/BIG LABELS.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">Podcast Clips</p>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-box">
+            <video controls poster="./imgs/erniethumb.png" width = "auto" height="auto">
+                <source src="./Videos/Ernie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">Gym Edits</p>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-box">
+            <video controls poster="./imgs/methumb.png">
+                <source src="./Videos/Unemployedwithadream.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p class="video-caption">Personal Brand</p>
+        </div>
+
+        <!-- Add more rows as needed -->
+    </div>
+</section>
+
+</body>
+</html>
